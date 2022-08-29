@@ -3471,8 +3471,8 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(80, 80, 80, 0.95), rgba(80, 80, 80, 0.95)), url("images/coding3.jpg");;
-			background-image: -webkit-linear-gradient(top, rgba(79, 79, 79, 0.95), rgba(79, 79, 79, 0.95)), url("images/coding3.jpg");;
+			background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/coding3.jpg");;
+			background-image: -webkit-linear-gradient(top, rgba(79, 79, 79, 0.7), rgba(79, 79, 79, 0.7)), url("images/coding3.jpg");;
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/coding3.jpg");;
 			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/coding3.jpg");;
 			content: '';
@@ -3510,20 +3510,20 @@ input, select, textarea {
 					top: 0;
 				}
 
-			#banner .content .image {
+			/* #banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
 				height: 20em;
 				margin-left: 3em;
 				vertical-align: middle;
 				width: 18em;
-			}
+			} */
 
-				#banner .content .image img {
+				/* #banner .content .image img {
 					border-radius: 100%;
 					display: block;
 					width: 100%;
-				}
+				} */
 
 	body.is-touch #banner {
 		background-attachment: scroll;
@@ -4110,3 +4110,32 @@ input, select, textarea {
 					}
 
 	}
+
+		/* .typing-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+	}
+
+	.typing-container div {
+		width: 200px;
+		height: 200px;
+	  }
+
+	.input-cursor {
+			display: inline-block;
+			width: 10px;
+			height: 121px;
+			background-color: white;
+			margin-left: 8px;
+			animation: blink .6s linear infinite alternate;
+	}
+
+	@keyframes blink {
+		0% {opacity: 1;}
+		40% {opacity: 1;}
+		60% {opacity: 0;}
+		100% {opacity: 0;}
+	  } */
+
+	
